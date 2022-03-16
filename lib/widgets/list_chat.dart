@@ -14,7 +14,7 @@ class _ListChatState extends State<ListChat> {
   @override
   Widget build(BuildContext context) {
     return ListView.builder(
-      itemCount: 9,
+      itemCount: 13,
       itemBuilder: (context, index) => ListTile(
         leading: CircleAvatar(
           foregroundImage:
